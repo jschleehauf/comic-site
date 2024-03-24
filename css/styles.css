@@ -14,7 +14,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-family: Geo, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	color: #444444;
 }
 
@@ -229,6 +229,7 @@ footer {
 	}
 	aside{
 		width:100%;
+		padding: 4px 32px 24px;
 	}
 }
 
@@ -239,6 +240,7 @@ footer {
 	.float-right {
 		width: 100%;
 	}
+	
 }
 
 /* 30em (320px and smaller) em is based off font size which is currently 16px. 1 em is 16px
@@ -249,6 +251,12 @@ footer {
 	}
 	aside {
 		padding: 0.125em 0.5em 0.25em;
+	}
+	blockquote {
+		margin-left:0;
+		margin-right:0;
+		padding-left:0.5;
+		padding-right:0.5;
 	}
 }
 	
